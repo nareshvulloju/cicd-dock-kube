@@ -6,7 +6,7 @@ pipeline {
     jdk "OracleJDK8"
 	}	
     environment {
-        registry = "nareshvulloju/vproappdock"
+        registry = "nareshvulloju/vproappdock1"
         registryCredential = 'dockerhub'
     }
 
