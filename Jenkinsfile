@@ -1,6 +1,6 @@
 pipeline {
 
-    agent any
+    agent {label 'KOPS'}
     tools {
     maven "MAVEN3"
     jdk "OracleJDK8"
